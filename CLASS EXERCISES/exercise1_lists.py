@@ -1,6 +1,6 @@
 # Exercise1 (Lists)
 
-# 1. Create a list with 5 items (names of people) and output the 2nd item
+# 1. A list with 5 items (names of people) and output the 2nd item
 people = ["Alice", "Bob", "Charlie", "Diana", "Eve"]
 print("2nd item:", people[1])
 
@@ -39,7 +39,7 @@ for country in countries:
     print("  -", country)
 
 # 10. Write a list of animal names and sort them in ascending and descending order
-animals = ["Zebra", "Elephant", "Lion", "Giraffe", "Ant", "Bear"]
+animals = ["Zebra", "Elephant", "Lion", "Giraffe", "Antelope", "Bear"]
 animals_asc = sorted(animals)
 animals_desc = sorted(animals, reverse=True)
 print("Animals (ascending):", animals_asc)
@@ -52,5 +52,6 @@ print("Animals with letter 'a':", animals_with_a)
 # 12. Two lists - first names and second names, then join them
 first_names = ["John", "Jane", "James"]
 second_names = ["Smith", "Doe", "Brown"]
-full_names = first_names + second_names
+# Combine corresponding first and second names into full names
+full_names = [f"{f} {s}" for f, s in zip(first_names, second_names)]
 print("Joined lists:", full_names)

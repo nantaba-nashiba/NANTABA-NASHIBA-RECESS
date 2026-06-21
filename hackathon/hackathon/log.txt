@@ -1,0 +1,22 @@
+[2026-06-19T10:34:56.849549] add called with args=(1, 2) kwargs={} -> 3
+[2026-06-19T10:34:56.869238] add called with args=('one', 2) kwargs={} -> InvalidInputError: Invalid positional argument: one
+[2026-06-19T10:34:56.884148] subtract called with args=(10, 3) kwargs={} -> 7
+[2026-06-19T10:34:56.888797] subtract called with args=(5, 'two') kwargs={} -> InvalidInputError: Invalid positional argument: two
+[2026-06-19T10:34:56.900591] multiply called with args=(4, 2) kwargs={} -> 8
+[2026-06-19T10:34:56.902889] multiply called with args=('x', 'y') kwargs={} -> InvalidInputError: Invalid positional argument: x
+[2026-06-19T10:34:56.907086] divide called with args=(10, 2) kwargs={} -> 5.0
+[2026-06-19T10:34:56.937514] divide called with args=(5, 0) kwargs={} -> Infinity
+[2026-06-19T10:34:56.990860] divide called with args=('five', 0) kwargs={} -> InvalidInputError: Invalid positional argument: five
+[2026-06-19T10:35:07.886381] add called with args=(1, 2) kwargs={} -> 3
+[2026-06-19T10:35:07.888881] add called with args=('one', 2) kwargs={} -> InvalidInputError: Invalid positional argument: one
+[2026-06-19T10:35:07.891732] subtract called with args=(10, 3) kwargs={} -> 7
+[2026-06-19T10:35:07.904195] subtract called with args=(5, 'two') kwargs={} -> InvalidInputError: Invalid positional argument: two
+[2026-06-19T10:35:07.906194] multiply called with args=(4, 2) kwargs={} -> 8
+[2026-06-19T10:35:07.907192] multiply called with args=('x', 'y') kwargs={} -> InvalidInputError: Invalid positional argument: x
+[2026-06-19T10:35:07.909641] divide called with args=(10, 2) kwargs={} -> 5.0
+[2026-06-19T10:35:07.921816] divide called with args=(5, 0) kwargs={} -> Infinity
+[2026-06-19T10:35:07.923815] divide called with args=('five', 0) kwargs={} -> InvalidInputError: Invalid positional argument: five
+[2026-06-19T10:38:08.788076] add called with args=(1, 3) kwargs={} -> 4
+[2026-06-19T10:38:28.184692] divide called with args=(4, 0) kwargs={} -> Infinity
+[2026-06-19T10:43:52.084530] divide called with args=(10, 0) kwargs={} -> Infinity
+[2026-06-19T10:45:31.722920] subtract called with args=('e', 4) kwargs={} -> InvalidInputError: Invalid positional argument: e
