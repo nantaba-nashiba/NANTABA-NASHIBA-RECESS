@@ -1,0 +1,9 @@
+2026-06-28 22:27:07 - INFO - Student Record Management system started.
+2026-06-28 22:27:07 - INFO - Loaded student records from CSV.
+2026-06-28 22:27:07 - INFO - Loaded student extra details from JSON.
+2026-06-28 22:30:38 - INFO - Student Record Management system started.
+2026-06-28 22:30:38 - INFO - Loaded student records from CSV.
+2026-06-28 22:30:38 - INFO - Loaded student extra details from JSON.
+2026-06-28 22:30:38 - INFO - User exited the application.
+2026-06-28 22:30:38 - INFO - Saved student records to CSV.
+2026-06-28 22:30:38 - INFO - Saved student extra details to JSON.

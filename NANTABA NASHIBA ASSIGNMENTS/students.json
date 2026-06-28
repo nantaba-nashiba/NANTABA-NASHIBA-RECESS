@@ -1,0 +1,12 @@
+{
+    "REG001": {
+        "program": "Computer Science",
+        "address": "123 Learning Lane",
+        "contact": "0712345678"
+    },
+    "REG002": {
+        "program": "Information Technology",
+        "address": "456 Study Street",
+        "contact": "0798765432"
+    }
+}
